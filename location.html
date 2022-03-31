@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCATION PAGE</title>
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>.top{
+        color: rgb(251, 251, 251);
+        display: flex;
+        justify-content: space-around;
+        height: 75px;
+        padding-top: 40PX;
+    
+    }
+    
+    .left {
+        color: rgb(251, 251, 251);
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    section {
+        display: block;
+        background-color: black;
+    }
+    
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-evenly;
+        padding: 0.5rem 1rem;
+        flex-direction: row;
+        color: white;
+    }
+    
+    .container-fluid {
+        width: 75%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 3.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.rem;
+        font-size: 15px;
+        line-height: inherit;
+        white-space: nowrap;
+        color: white;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .gg{
+        color:palevioletred;
+        font-size: 35px;
+    }
+    #main{
+        width: 65%;
+        height:35px;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+    }
+    .or{
+        font-size: 25px;
+    }
+    u{
+        color:palevioletred;
+        font-size: 25px;
+    }
+    .option{
+        height: 100%;
+        width:200px;
+        border-radius: 0;
+    }
+    input{
+        height: 30px;
+    }
+    button{
+        background-color: #ff4661;
+        color: white;
+        font-weight: bold;
+        border:0;
+
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    #box{
+        display: grid;
+        width:80%;
+        margin:auto;
+        margin-top: 40px;
+        grid-template-columns: repeat(4,1fr);
+        gap:40px;
+        margin-bottom: 50px;
+    }
+    .img{
+        width: 100%;
+        height: 250px;
+    }
+    a{
+        color:black;
+    }
+    #footer{
+        background-color:  white;
+        color: 000000;
+       
+        text-align: center;
+        font-size: 1.5rem;
+        }
+        #footer{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 600px;
+        }
+     #footercont{
+         
+         width: 100%;
+         height: 400px;
+         border: none;
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 1px;
+         margin: auto;
+        color: white;
+     } 
+     .boxincont{
+         
+         
+         height: 400px;
+         text-align: left;
+         padding: 40px;
+         font-size: 15px;
+     } 
+     #locationf {
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  border: 1px solid aliceblue;
+}
+     .ftbox3{
+        background-color: black;
+         color: white;
+         padding: 10px 30px 10px 20px;
+          border: 1px solid white; 
+          margin-bottom:  20px;
+        }
+    
+     /* .img{
+         height: 20px;
+         width: auto;
+     } */
+     #belowhr {
+        display: flex;
+        width: 100%;
+        height: 100PX;
+        justify-content: space-between;
+    }
+     #belowhr1{
+        display: flex;
+        width: 50%;
+        
+     }
+     #imglast{
+         display: flex;
+         justify-content: right;
+         align-items: flex-start;
+         padding-right: 40px;
+         width: 100%;
+     }
+     
+    
+     ul {
+    list-style: none;
+    margin-left: -58px
+    
+}
+
+ul li {
+     margin:5px 5px; 
+     float:left; 
+     font-size: 25px;
+}
+
+.wp-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+   text-align: center; 
+  line-height: 50px;
+  vertical-align: middle;
+  color: #fff;
+   margin-right: 5px; 
+}
+
+.fa-facebook-f {
+  background: black;
+}
+.nv-1 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nv-2 {
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.fa-twitter {
+  background: black;
+}
+.fa-instagram {
+  background: black;
+  
+}
+
+.fa-youtube {
+  background: black;
+}
+
+.fa-pinterest {
+  background: black;
+}
+.need{
+font-size: 18Px;
+
+}
+.need1{
+    font-size: 14Px;
+    text-transform: capitalize!important;
+    
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgb(255 246 246);
+    width: 100%;
+    /* margin: 24px; */
+    /* margin-left: 7PX; */
+    /* margin-right: -39PX; */
+}
+.need2 {
+    font-size: 18Px;
+    margin-top: 15px;
+}
+.blank{
+height: 300px;
+background-color: #fff;
+}
+
+.copy {
+    font-size: 15px;
+}
+.copyp {
+    width: 100%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy1 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy2 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+}
+input.ftbox3:hover {
+    background-color: #333333;
+}
+.imgbb{
+    width: 345px;
+    height: 40px;
+}
+    </style>
+</head>
+<body>
+    <section id="title">
+        <div class="top">
+            <div>EMAIL SIGN UP</div>
+            <div><img class="imgbb" src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></div>
+            <div class="left">
+                <div>JOIN BBACCESS</div>
+                <div><a href="location.html" ><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg" alt="" width="20" height="20"></a></div>
+                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></div>
+                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg" alt=""width="20" height="20"></div>
+            </div>
+        </div>
+      <div class="container-fluid">
+          <!-- Nav Bar -->
+       <nav class="navbar">
+        <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20"> <input type="search" placeholder="SEARCH"></a>
+        <a class="navbar-brand" href="#">BESTSELLERS</a>
+        <a class="navbar-brand" href="face.html">FACE</a>
+        <a class="navbar-brand" href="#">MAKEUP</a>
+        <a class="navbar-brand" href="#">SKINCARE</a>
+        <a class="navbar-brand" href="#">VIRTUAL SERVICES </a>
+        <a class="navbar-brand" href="discover.html">DISCOVER</a>        
+      </div>
+    </nav>
+    </section> 
+    <h1>FIND A STORE</h1>
+    <div id="main" >
+        <span class="fa-solid fa-location-crosshairs gg"></span>
+        <span><u>USE CURRENT LOCATION</u></span>
+        <span class="or" >OR</span>
+            <select>
+                <Option>LOCATION</Option>
+                <Option>ANDORRA</Option>
+                <Option>ARGENTINA</Option>
+                <Option>AUSTRALIA</Option>
+                <Option>AUSTRIA</Option>
+                <Option>AZERBAYDZHAN</Option>
+                <Option>BAHAMAS</Option>
+                <Option>BAHRAIN</Option>
+                <Option>BELGIUM</Option>
+                <Option>BERMUDA</Option>
+                <Option>CANADA</Option>
+                <Option>CHILE</Option>
+                <Option>CHINA MAINLAND</Option>
+                <Option>CURACAO</Option>
+                <Option>CYPRUS</Option>
+                <Option>CZECH REPUBLIC</Option>
+                <Option>DENMARK</Option>      
+                <Option>FRANCE</Option>      
+                <Option>GERMANY</Option>      
+                <Option>GREECE</Option>      
+                <Option>GUAM</Option>      
+            </select>
+
+
+            <input placeholder="Enter City, State or Zip Code"/>
+            <button>FIND STORE</button>
+
+    </div>
+    <div id="box" >
+        <div class="d1" >
+            <img class="img" src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_03.jpg" />
+            <h2>CHAT NOW</h2>
+            <P>Upload a photo for personalized advice on demand.</P>
+            <a href="www.google.com" >CHAR NOW</a>
+        </div>
+        <div class="d2" >
+            <img class="img" src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_05.jpg" />
+            <h2>FREE SHIPPING</h2>
+            <P>Find your perfect match with free shipping and returns on all fundations.</P>
+            <a href="www.google.com" >SHOP NOW</a>
+        </div>
+        <div class="d3" >
+            <img class="img" src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_07.jpg" />
+            <h2>WE WANT YOU TO LOVE IT</h2>
+            <P>We've got answers to all your beauty questions.</P>
+            <a href="www.google.com" >EXPLORE NOW</a>
+        </div>
+        <div class="d4" >
+            <img class="img" src="https://www.bobbibrowncosmetics.com/media/export/cms/HP_Modules/EvergreenServices/BB_HP_Module_PC_Services_09.jpg" />
+            <h2>EXCLUSIVE OFFERS</h2>
+            <p>Get instantly matcked with our Foundation Finder.</p>
+            <a href="www.google.com" >GET STARTED</a>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+        <div id="footercont">
+            <div class="boxincont">
+                <div>
+                    <h2 class="need">NEED HELP?</h2>
+                </div>
+                <div>
+                    <h3 class="need1">Chat with Artist</h3>
+                    <h3 class="need1">Text an Artist</h3>
+                    <h3 class="need1">Call Us (877)-310-9222</h3>
+                    <h3 class="need1">Shipping & Returns </h3>
+                    <h3 class="need1" >FAQS</h3>
+                    <h3 class="need1">careers</h3>
+                </div>
+                <div>
+                    <select name="location" id="locationf">
+                        <option value="">CHOOSE LOCATION</option>
+                        <option value="ARGENTINA">ARGENTINA</option>
+                        <option value="AUSTRLIA">AUSTRLIA</option>
+                        <option value="AUSTRIA">AUSTRIA</option>
+                        <option value="CANADA">CANADA</option>
+                        <option value="CHILE">CHILE</option>
+                        <option value="MAINLAND CHINA">MAINLAND CHINA</option>
+                        <option value="FRANCE">FRANCE</option>
+                        <option value="GERMANY">GERMANY</option>
+                        <option value="GREECE">GREECE</option>
+                        <option value="HONG KONG, SAR OF CHINA">HONG KONG, SAR OF CHINA</option>
+                        <option value="ISRAEL">ISRAEL</option>
+                        <option value="ITALY">ITALY</option>
+                        <option value="JAPAN">JAPAN</option>
+                        <option value="MALAYSIA">MALAYSIA</option>
+                        <option value="MEXICO">MEXICO</option>
+                        <option value="MIDDLE EAST">MIDDLE EAST</option>
+                        <option value="NETHERLANDS">NETHERLANDS</option>
+                        <option value="PHILIPPINES">PHILIPPINES</option>
+                        <option value="POLAND">POLAND</option>
+                        <option value="RUSSIA">RUSSIA</option>
+                        <option value="SINGAPORE">SINGAPORE</option>
+                        <option value="SOUTH KOREA">SOUTH KOREA</option>
+                        <option value="SPAIN">SPAIN</option>
+                        <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                        <option value="SWITZERLAND">SWITZERLAND</option>
+                        <option value="TAIWAN, CHINA">TAIWAN, CHINA</option>
+                        <option value="THAILAND">THAILAND</option>
+                        <option value="TURKEY">TURKEY</option>
+                        <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+                        <option value="UNITED STATES">UNITED STATES</option>
+                    </select>
+                </div>
+            </div>
+            <div class="boxincont">
+                <div>
+                    <h2 class="need">MY BOBBI BROWN</h2>
+                </div>
+                <div>
+                    <h3 class="need1">BB Access</h3>
+                    <h3 class="need1">My Account</h3>
+                    <h3 class="need1">My Orders</h3>
+                    <h3 class="need1">Store Locator</h3>
+                </div>
+            </div>
+            <div class="boxincont">
+                <div>
+                    <input class="ftbox3" type="text" placeholder="ENTER YOUR EMAIL">
+                    <br>
+                    <input class="ftbox3" type="text" placeholder="ENTER YOUR MOBILE PHONE">
+                    <br>
+                    <input class="ftbox3" type="submit" value="SUBMIT">
+                </div>
+                <div>
+                   <div>
+                    <h2 class="need2">FOLLOW US</h2>
+                   </div>
+                   <div >
+                    
+                        <ul>
+                          <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
+                          <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
+                          <li><i class="fa wp-icon fa-youtube fa-lg"></i></li>
+                          <li><i class="fa wp-icon fa-instagram fa-lg"></i></li>
+                           <li><i class="fa wp-icon fa-pinterest fa-lg"></i></li>
+                        </ul>      
+                    
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="belowhr">
+            <div>
+                 <p class="copyp">© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+            </div>
+            <div id="belowhr1">
+                <div class="copy1">
+                    <h4 class="copy">Terms & Comditions</h4>
+                    <h4 class="copy">California Do Not Sell My Personal Information</h3>
+                    <h4 class="copy">Accessibility</h4>
+                </div>
+                <div class="copy2">
+                    <h4 class="copy">Interest Based Ads</h4>
+                    <h4 class="copy">Privacy Policy</h4>
+                </div>
+                <div id="imglast">
+                    <img src="https://www.bobbibrowncosmetics.com/media/images/global/bobbi_access_icon.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
