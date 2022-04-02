@@ -4,6 +4,7 @@
     display: flex;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
 }
 #left_div {
     height: 300px;
