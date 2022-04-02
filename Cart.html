@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobbi Brown India Skincare</title>
+    
+    <!-- GoogleFont -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+ <!-- css stylesheet -->
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/fc9008eadf.js" crossorigin="anonymous"></script>
+
+<!-- bootstrap -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- CSS CODES -->
+<Style>
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.top{
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    padding-top: 40PX;
+
+}
+.search {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 65px;
+    border-bottom: 1px solid white;
+}
+
+*:focus {
+        outline: none;
+    }
+
+.left {
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+section {
+    display: block;
+    background-color: black;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-start;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 3.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.rem;
+    font-size: 15px;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+    padding-right: 20px;
+}
+a.navbar-brand:hover {
+    text-decoration: underline;
+}
+.nv-1 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nv-2 {
+  text-decoration: underline;
+  font-size: 11px;
+}
+.need{
+font-size: 18Px;
+
+}
+.need1{
+    font-size: 14Px;
+    text-transform: capitalize!important;
+    
+}
+
+.hr1 {
+    width: 50%;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 6;
+    color: black;
+    width: 80%;
+    margin-left: 0PX;
+    height: 0px;
+    background-color: black;
+    padding-left: 112PX;
+}
+.need2 {
+    font-size: 18Px;
+    margin-top: 15px;
+}
+.blank{
+height: 300px;
+background-color: #fff;
+}
+
+.copy {
+    font-size: 15px;
+}
+.copyp {
+    width: 100%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy1 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy2 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+}
+
+.boxincont{
+         
+         
+         height: 400px;
+         text-align: left;
+         padding: 40px;
+         font-size: 15px;
+     } 
+     #locationf {
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  border: 1px solid aliceblue;
+}
+     .ftbox3{
+        background-color: black;
+         color: white;
+         padding: 10px 30px 10px 20px;
+          border: 1px solid white; 
+          margin-bottom:  20px;
+        }
+        [type=search] {
+    /* outline-offset: -2px; */
+    background-color: black;
+    /* -webkit-appearance: none; */
+    border: none;
+}
+     #belowhr {
+    display: flex;
+    width: 100%;
+    height: 200PX;
+    background-color: black;
+    /* padding: 20px; */
+    justify-content: space-between;
+    padding-top: 30px;
+}
+     #belowhr1{
+        display: flex;
+        width: 50%;
+        
+     }
+     #imglast{
+         display: flex;
+         justify-content: right;
+         align-items: flex-start;
+         padding-right: 40px;
+         width: 100%;
+     }
+     .cartimg {
+    width: 615px;
+    height: 76px;
+}
+    .cart{
+        display: flex;
+        margin: auto;
+    height: 600px;
+    background-color: white;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+     }
+     /* .hr1 {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgb(19, 19, 19);
+    width: 100%;
+   
+} */
+
+.lower{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgb(19, 19, 19);
+    width: 100%;
+   
+}
+h2 {
+    font-size: 25px;
+}
+.cart-2 {
+        width: 31%;    
+        margin-left: -100px;
+    
+}
+h1 {
+    font-size: 25px;
+    padding: 15px;
+}
+.Enjoy {
+    border-top: 2px solid black;
+    height: 55px;
+    width: 615;
+    width: 100%;
+    background-color: #eff0f0;
+    padding: 15px;
+}
+.Please{
+    color: rgb(251, 9, 9);
+    height: 100px;
+    padding-top: 30px;
+}
+.button {
+    text-align: end;
+    height: 85px;
+    width: 32%;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.button1 {
+    cursor: pointer;
+    text-align: end;
+       width: 80%;    
+    padding-left: 20px;
+}
+hr{
+    color: black;
+    margin-top: 0rem;
+    margin-bottom: rem;
+    border: 0;
+    border-top: 1px solid rgb(19, 19, 19);    
+    width: 80%;
+    background-color: #fff;
+    
+}
+
+.main{
+background-color: white;
+height: 100px;
+}
+select {
+    height: 40px;
+    /* padding-bottom: 2px; */
+    width: 100%;
+}
+
+.custom_radio{
+   margin: 20px;
+}
+.custom_radio input[type="radio"]{
+  display: none;
+}
+.custom_radio input[type="radio"] + label{
+  position: relative;
+  display: inline-block;
+  padding-left: 1.5em;
+  margin-right: 2em;
+  cursor: pointer;
+  line-height: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.custom_radio input[type="radio"] + label:before,
+.custom_radio input[type="radio"] + label:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  color: rgb(6, 4, 4);
+  font-family: Times;
+  border-radius: 50%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.custom_radio input[type="radio"] + label:before {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  box-shadow: inset 0 0 0 0.1em rgb(0, 0, 0), inset 0 0 0 1em white;
+  
+}
+.custom_radio input[type="radio"] + label:hover:before {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  box-shadow: inset 0 0 0 0.3em rgb(3, 2, 2), inset 0 0 0 1em #c6c6c6;
+  
+}
+.custom_radio input[type="radio"]:checked + label:before {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em #000000;
+}
+.span {
+    display: flex;
+    justify-content: space-around;
+    width: 64%;
+}
+.custom_radio {
+    margin: 20px;
+    display: flex;
+}
+p.prr {
+    padding-top: 20px;
+}
+span {
+    color: #b7b7b8;
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+</Style>
+</head>
+<body>
+   
+  <!-- heading -->
+  <section id="title">
+    <div class="top">
+        <div class="nv-1">EMAIL SIGN UP</div>
+        <div><a href="HOME.html"><img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></a></div>
+        <div class="left">
+            <div class="nv-1" >JOIN BB<span class="nv-2">ACCESS</span></div>
+            <div><a href="location.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg" alt="" width="20" height="20"></a></div>
+            <div> <a href="login.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></a></div>
+            <div> <a href="Cart.html"> <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg" alt=""width="20" height="20"></a></div>
+        </div>
+    </div>
+  <div class="container-fluid">
+      <!-- Nav Bar -->
+   <nav class="navbar">
+    <div class="search">
+      <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20">
+     <input type="search" placeholder="SEARCH"></a>
+    </div>
+    <div>
+     <!-- <a class="navbar-brand" href="#">NEW</a> -->
+    <a class="navbar-brand" href="bestseller.html">BESTSELLERS</a>
+    <a class="navbar-brand" href="face.html">FACE</a>
+    <a class="navbar-brand" href="makeup.html">MAKEUP</a>
+    <a class="navbar-brand" href="SKINCARE.html">SKINCARE</a>
+    <a class="navbar-brand" href="virtual.html">VIRTUAL SERVICES </a>
+    <a class="navbar-brand" href="discover.html">DISCOVER</a>
+    </div>
+    
+     <!-- cart form -->
+
+        <div class="cart">
+        <div class="cart-1">
+            <div><img class="cartimg" src="https://www.bobbibrowncosmetics.com/media/export/cms/offers/BB_Banner_Loyalty_728x90.jpg" alt="">
+            </div>
+            <div><H1>SHOPPING BAG</H1></div>        
+            <div class="Enjoy"><p>Enjoy Free Standard Shipping on any $65+ order.
+            </p></div>
+            <div class="Please"><p>Please add a product to your shopping bag in order to checkout.
+            </p></div>
+            <div><p> you have previously added items to your shopping cart, <a href="#"><span>sign in</span> </a>  to see them.
+             </p>
+            <hr class="hr1">
+            </div>
+            <div class="button1">
+                <button>GO SHOPPING</button>
+            </div>
+            
+        </div>
+             <div class="cart-2"><h2>DONATE</h2>
+                <hr class="hr1">
+           
+            <div>
+                <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/80x80/bb_prod_555877_80x80_0.jpg" alt="" width="80px" height="80px">
+            </div>
+            <div class=" select">
+                <select>
+                    
+                    <option value="hurr">BCRF DONATION</option>
+                    <option value="hurr">SHE'S THE FIRST</option>
+                </select>
+                <p class="prr">Donate today to The Breast Cancer Research Foundation to support life-saving research. <a href="#"> <span>Learn More</span> </a>Learn More about BCRF.</p>
+            </div>
+            <div>
+                <div class="custom_radio">
+                    <input type="radio" id="featured-1" name="featured" checked><label for="featured-1">$1.00</label>
+                    <br>
+                    <input type="radio" id="featured-2" name="featured"><label for="featured-2">$5.00</label>
+                    <br>
+                    <input type="radio" id="featured-3" name="featured"><label for="featured-3">$10</label>
+                  </div>            </div>
+            <div class="button">
+                <button>GO SHOPPING</button>
+            </div>              
+             </div>            
+         </div>
+         
+         <div class="main">
+       <hr>
+        </div>
+
+     <!-- below footer -->
+    
+     <!-- <hr class="lower"> -->
+     <div id="belowhr">
+         <div>
+              <p class="copyp">© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+         </div>
+         <div id="belowhr1">
+             <div class="copy1">
+                 <h4 class="copy">Terms & Comditions</h4>
+                 <h4 class="copy">California Do Not Sell My Personal Information</h3>
+                 <h4 class="copy">Accessibility</h4>
+             </div>
+             <div class="copy2">
+                 <h4 class="copy">Interest Based Ads</h4>
+                 <h4 class="copy">Privacy Policy</h4>
+             </div>
+             <div id="imglast">
+                 <img src="https://www.bobbibrowncosmetics.com/media/images/global/bobbi_access_icon.jpg" alt="">
+             </div>
+         </div>
+     </div>
+ </div>
+ </footer>
+ 
+      
+ </div>
+</body>
+</html>
