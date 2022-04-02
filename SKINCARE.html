@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKINCARE</title>
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+<style>
+    body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.top{
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    padding-top: 40PX;
+
+}
+.search {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 65px;
+    border-bottom: 1px solid white;
+}
+input, optgroup, select, textarea {
+    background-color: black;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: -90px;
+    color: white;
+    /* padding: 30px; */
+    border: 0px;
+}
+*:focus {
+        outline: none;
+    }
+
+.left {
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+section {
+    display: block;
+    background-color: black;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-start;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 3.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.rem;
+    font-size: 15px;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+    padding-right: 20px;
+}
+a.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+   /* footer section */
+   #footer{
+        background-color:  white;
+        color: 000000;
+
+        text-align: center;
+        font-size: 1.5rem;
+        }
+        #footer{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 600px;
+        }
+     #footercont{
+
+         width: 100%;
+         height: 400px;
+         border: none;
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 1px;
+         margin: auto;
+        color: white;
+     }
+     .boxincont{
+
+
+         height: 400px;
+         text-align: left;
+         padding: 40px;
+         font-size: 15px;
+     }
+     #locationf {
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  border: 1px solid aliceblue;
+}
+     .ftbox3{
+        background-color: black;
+         color: white;
+         padding: 10px 30px 10px 20px;
+          border: 1px solid white;
+          margin-bottom:  20px;
+        }
+
+     /* .img{
+         height: 20px;
+         width: auto;
+     } */
+     #belowhr {
+        display: flex;
+        width: 100%;
+        height: 100PX;
+        justify-content: space-between;
+    }
+     #belowhr1{
+        display: flex;
+        width: 50%;
+
+     }
+     #imglast{
+         display: flex;
+         justify-content: right;
+         align-items: flex-start;
+         padding-right: 40px;
+         width: 100%;
+     }
+
+
+     ul {
+    list-style: none;
+    margin-left: -58px
+
+}
+
+ul li {
+     margin:5px 5px;
+     float:left;
+     font-size: 25px;
+}
+
+.wp-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+   text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #fff;
+   margin-right: 5px;
+}
+
+.fa-facebook-f {
+  background: black;
+}
+.nv-1 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nv-2 {
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.fa-twitter {
+  background: black;
+}
+.fa-instagram {
+  background: black;
+
+}
+
+.fa-youtube {
+  background: black;
+}
+
+.fa-pinterest {
+  background: black;
+}
+.need{
+font-size: 18Px;
+
+}
+.need1{
+    font-size: 14Px;
+    text-transform: capitalize!important;
+
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgb(255 246 246);
+    width: 100%;
+    /* margin: 24px; */
+    /* margin-left: 7PX; */
+    /* margin-right: -39PX; */
+}
+.need2 {
+    font-size: 18Px;
+    margin-top: 15px;
+}
+.blank{
+height: 300px;
+background-color: #fff;
+}
+
+.copy {
+    font-size: 15px;
+}
+.copyp {
+    width: 100%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy1 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+    font-size: 16px;
+}
+.copy2 {
+    width: 60%;
+    text-align: initial;
+    color: #b7b7b8;
+}
+input.ftbox3:hover {
+    background-color: #333333;
+}
+
+@media (max-width: 800px) {
+  #title {
+    flex-direction: column;
+display:flex;
+  flex-wrap:wrap; /* this */
+  gap:10px;
+  }
+  .logo {
+    width: 80%;
+    height: 25%;
+}
+.nv-1 {
+    font-size: 8px;
+    font-weight: 700;
+    /* letter-spacing: 2px; */
+    /* width: 30%; */
+}
+ 
+ .top {
+    width: 75%;
+}
+span.nv-2 {
+    font-size: 8px;
+}
+}
+/* skincare section */
+#topimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 53px;
+    font-weight: 400;
+    font-style: normal;
+         height: 250px;
+         width: 100%;
+         background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/mpp/FY19/MPP-Category-Header-PC-Skincare_@2x.jpg");
+         background-size: cover;
+         text-align: center;
+         font-size: 60px;
+         color: white;
+}
+#chatcont{
+    width: 90%;
+    height: 400px;
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#chatcont>#video{
+    /* background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/skincare/BB-PC-GNAV-Skincare_Bestsellers_600x300_@2x.jpg");
+    background-size: cover; */
+    background-color: black;
+} 
+ #chatcont>div>video{
+    width: 555px;
+    height: 400px;
+} 
+#CC1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+#CC1>button{
+    border: none;
+    padding: 15px 30px 15px 30px ;
+}
+#last-of-skincare{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px; 
+}
+#filter-sort{
+           display: flex;
+           justify-content: space-between;
+           width: 92%;
+           margin: auto;
+}
+#sort{
+    padding: 10px 40px 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+#maincont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+
+}
+#maincont>div{
+    height: 600px;
+    text-align: center;
+}
+#maincont>div>img{
+    width: 300px;
+    height: 300px;
+}
+span:hover{
+    cursor: pointer;
+    rotate: 0;
+    motion: auto;
+}
+#backimg{
+    /* height: 100%;
+    width: 100%; */
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/mpp/SS22/SS22_SkinCCStick_pc.jpg");
+    background-size: cover;
+    color: #fff;
+    /* display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;  */
+    
+}
+.btn2{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+/* photo started */
+.photo>img{
+    width: 300px;
+    height: 300px;
+}
+.photo {
+    position: relative;
+}
+.photo .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.photo .before:hover + .after, .after:hover {
+    display: block;
+}
+/* photo ended */
+</style>
+</head>
+<body>
+    <section id="title">
+        <div class="top">
+            <div class="nv-1">EMAIL SIGN UP</div>
+            <div><a href="index.html"><img class="logo" src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></a></div>
+            <div class="left">
+                <div class="nv-1" >JOIN BB<span class="nv-2">ACCESS</span></div>
+                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg" alt="" width="20" height="20"></div>
+                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></div>
+                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg" alt=""width="20" height="20"></div>
+            </div>
+        </div>
+      <div class="container-fluid">
+          <!-- Nav Bar -->
+       <nav class="navbar">
+        <div class="search">
+          <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20">
+         <input type="search" placeholder="SEARCH"></a>
+        </div>
+        <div>
+         <a class="navbar-brand" href="#">BESTSELLERS</a>
+        <a class="navbar-brand" href="face.html">FACE</a>
+        <a class="navbar-brand" href="#">MAKEUP</a>
+        <a class="navbar-brand" href="SKINCARE.html">SKINCARE</a>
+        <a class="navbar-brand" href="#">VIRTUAL SERVICES </a>
+        <a class="navbar-brand" href="discover.html">DISCOVER</a>
+        </div>
+ 
+      </div>
+    </nav>
+    </section>
+ 
+       <!-- <div class="blank"></div> -->
+      <!-- Skincare section --> 
+      <div id="topimg">
+        <p>SKINCARE</p>
+       </div>
+       <div id="filter-sort">
+           <div>
+               <p>Home</p>
+               
+           </div>
+           <div>
+               <p>27 products</p>
+               <select name="sort" id="sort" aria-placeholder="SORT BY">
+                   <option value="">SORT BY</option>
+                   <option value="BESTSELLER">BESTSELLER</option>
+                   <option value="lth">PRICE (LOW TO HIGH)</option>
+                   <option value="htl">PRICE (HIGH TO LOW)</option>
+                   <option value="Highest Rated">HIGHEST RATED</option>
+               </select>
+           </div> 
+       </div>
+       <div id="maincont">
+           <div>
+               <button>Top-Rated</button>
+               <br>
+               <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1LM01_600x600_0.jpg" alt="">
+               <h3>VITAMIN ENRICHED FACE BASE</h3>
+               <P>Multitasking, moisturizing primer</P>
+               <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$64</p>
+                <br>
+               <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EL1901_600x600_1.jpg" alt="">
+               </div>
+            <h3>VITAMIN ENRICHED EYE BASE</h3>
+            <P> Moisturizing undereye primer</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$56</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div id="backimg">
+               <h3>New</h3>
+               <h1>SKIN <br> CORRECTOR STICK</h1>
+               <button>SHOP NOW</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EREP01_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA REPAIR MOISTURE CREAM INTENSE</h3>
+            <P> Replenishing face cream with Vitamin C</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$105</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EP7P01_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA REPAIR EYE CREAM INTENSE</h3>
+            <P> Revitalizing undereye treatment</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$82</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_1.jpg" alt="">
+            </div>
+            <h3>EXTRA CLEANSING BALM</h3>
+            <P> Purifying, conditioning cleanser</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$56</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPHC01_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA REPAIR EYE CREAM INTENSE REFILL</h3>
+            <P> Skin loving. Planet conscious.</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$68</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERER01_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA REPAIR MOISTURE CREAM INTENSE REFILL</h3>
+            <P> Refill. Reuse. Repeat.</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$85</p>
+                <br>
+            <button  class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg" alt="">
+            <h3>HYDRATING FACE CREAM </h3>
+            <P> Rich yet lightweight moisturizer</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$64</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Best Seller</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg" alt="">
+            <h3>HYDRATING EYE CREAM </h3>
+            <P>Gentle, quick-absorbing eye cream</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$56</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMNE01_600x600_1.jpg" alt="">
+                </div>
+            <h3>HYDRATING WATER FRESH CREAM </h3>
+            <P> 100 hours of nonstop hydration</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$64</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7G01_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7G01_600x600_1.jpg" alt="">
+                </div>
+            <h3>DELUXE SIZE REMEDIES SKIN CLARIFIER</h3>
+            <P> Pore-clarifying booster</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$74</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7E01_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ET7E01_600x600_1.jpg" alt="">
+            </div>
+            <h3>DELUXE SIZE SOOTING CLEANSING OIL</h3>
+            <P> Gentle makeup-dissolving oil</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$80</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Customer Favorite </button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EHP201_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA ILLUMINATING MOISTURE BALM</h3>
+            <P> Glow-amplifying moisturizer</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$69</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Customer Favorite </button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E1YJ01_600x600_0.jpg" alt="">
+            <h3>EXTRA FACE OIL</h3>
+            <P> Silky, fast-absorbing face oil</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$72</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Customer Favorite</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg" alt="">
+            <h3>SOOTHING CLEANSING OIL</h3>
+            <P>Makeup remover and cleanser</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$34</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>TRY IT ON</button>
+            <br>
+            <div class="photo">
+                <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EER901_600x600_0.jpg" alt="">
+                <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EER901_600x600_1.jpg" alt="">
+                </div>
+            <h3>EXTRA REPAIR EYE CREAM INTENSE REFILL</h3>
+            <P> Skin loving. Planet conscious.</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$50</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCT01_600x600_0.jpg" alt="">
+            <h3>SOOTHING CLEANSING OIL</h3>
+            <P>Makeup Remover and Face Cleanser</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$50</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_1.jpg" alt="">
+            </div>
+            <h3>SKIN CLARIFIER NO. 75</h3>
+            <P> Concentrated pore-clarifying treatment</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$49</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EG7801_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EG7801_600x600_1.jpg" alt="">
+            </div>
+            <h3>SKIN MOISTURE SOLUTION NO. 86 INTENSE REHYDRATION COMPOUND</h3>
+            <P>Water-infused hydrating serum</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$49</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Top-Rated</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65R01_600x600_0.jpg" alt="">
+            <h3>HYDRATING FACE TONIC</h3>
+            <P> Balancing and restoring toner</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$38</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Top-Rated</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E42G01_600x600_0.jpg" alt="">
+            <h3>INSTANT LONG-WEAR MAKEUP REMOVER</h3>
+            <P>Gentle eye-makeup remover</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$33</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM6701_600x600_0.jpg" alt="">
+            <h3>MAKEUP MELTER & CLEANSER</h3>
+            <P> Gentle foaming makeup remover</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$40</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Top-Rated</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EKLT01_600x600_0.jpg" alt="">
+            <h3>PRIMER PLUS PROTECTION SPF 50</h3>
+            <P> Protective face primer</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$40</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Limited Edition</button>
+            <br>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM9301_600x600_0.jpg" alt="">
+            <h3>DELUXE SIZE SOOTHING CLEANSING OIL</h3>
+            <P> Value-sized gentle makeup-dissolving oil</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$80</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>New</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERJK03_600x600_1.jpg" alt="">
+            </div>
+            <h3>MINI EXTRA ILLUMINATING MOISTURE BALM </h3>
+            <P>Glow big (in a new mini size)</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$30</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Limited Edition</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGP01_600x600_1.jpg" alt="">
+            </div>
+            <h3>MINI SOOTHING CLEANSING OIL </h3>
+            <P>On-the-go gentle makeup-dissolving oil</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$20</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           <div>
+            <button>Mini Size</button>
+            <br>
+            <div class="photo">
+            <img class="before" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg" alt="">
+            <img class="after" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_1.jpg" alt="">
+            </div>
+            <h3>MINI VITAMIN ENRICHEDFACE BASE </h3>
+            <P>Oil-free moisturizer and primer</P>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star un"></span>
+                <p>$15</p>
+                <br>
+            <button class="btn2">ADD TO BAG</button>
+           </div>
+           
+       </div>
+       <div id="chatcont">
+           <div id="CC1">
+                    <h1>LETS CHAT</h1>
+               <p>Need advice? Our artists are here to help with
+                Live Chat. Plus, get personalized recommendations
+                when you upload a photo.</p>
+                <button>CHAT NOW</button>
+                <p>The glowing reviews are in. See what
+                    everyone’s learning with Live Chat.</p>
+                    <h3>READ REVIEWS</h3>
+           </div>
+           <div id="video">
+            <!-- <img src="https://www.bobbibrowncosmetics.com/media/export/cms/nav_touts/new/BB_ExtraSkincare_Relaunch_GNAV.jpg" alt=""> -->
+            <video src="https://www.bobbibrowncosmetics.com/media/export/cms/VirtualServices/FH21_VirtualServices_RealTime_Text_pc.mp4" autoplay muted loop></video>
+          </div>
+       </div>
+       <p id="last-of-skincare"> Our best moisturizer face & best skincare products to nourish skin and create the perfect canvas for makeup application. Bobbi`s top-rated collection of best moisturizer face & best skincare products infuse skin with luxurious hydration. Discover our best moisturizer face & best skincare products to nourish, hydrate, repair & soothe all skin types. </p>
+      <!-- footer section -->
+ 
+            <div>
+             <footer>
+               <div id="footer">
+               <div id="footercont">
+                   <div class="boxincont">
+                       <div>
+                           <h2 class="need">NEED HELP?</h2>
+                       </div>
+                       <div>
+                           <h3 class="need1">Chat with Artist</h3>
+                           <h3 class="need1">Text an Artist</h3>
+                           <h3 class="need1">Call Us (877)-310-9222</h3>
+                           <h3 class="need1">Shipping & Returns </h3>
+                           <h3 class="need1" >FAQS</h3>
+                           <h3 class="need1">careers</h3>
+                       </div>
+                       <div>
+                           <select name="location" id="locationf">
+                               <option value="">CHOOSE LOCATION</option>
+                               <option value="ARGENTINA">ARGENTINA</option>
+                               <option value="AUSTRLIA">AUSTRLIA</option>
+                               <option value="AUSTRIA">AUSTRIA</option>
+                               <option value="CANADA">CANADA</option>
+                               <option value="CHILE">CHILE</option>
+                               <option value="MAINLAND CHINA">MAINLAND CHINA</option>
+                               <option value="FRANCE">FRANCE</option>
+                               <option value="GERMANY">GERMANY</option>
+                               <option value="GREECE">GREECE</option>
+                               <option value="HONG KONG, SAR OF CHINA">HONG KONG, SAR OF CHINA</option>
+                               <option value="ISRAEL">ISRAEL</option>
+                               <option value="ITALY">ITALY</option>
+                               <option value="JAPAN">JAPAN</option>
+                               <option value="MALAYSIA">MALAYSIA</option>
+                               <option value="MEXICO">MEXICO</option>
+                               <option value="MIDDLE EAST">MIDDLE EAST</option>
+                               <option value="NETHERLANDS">NETHERLANDS</option>
+                               <option value="PHILIPPINES">PHILIPPINES</option>
+                               <option value="POLAND">POLAND</option>
+                               <option value="RUSSIA">RUSSIA</option>
+                               <option value="SINGAPORE">SINGAPORE</option>
+                               <option value="SOUTH KOREA">SOUTH KOREA</option>
+                               <option value="SPAIN">SPAIN</option>
+                               <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                               <option value="SWITZERLAND">SWITZERLAND</option>
+                               <option value="TAIWAN, CHINA">TAIWAN, CHINA</option>
+                               <option value="THAILAND">THAILAND</option>
+                               <option value="TURKEY">TURKEY</option>
+                               <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+                               <option value="UNITED STATES">UNITED STATES</option>
+                           </select>
+                       </div>
+                   </div>
+                   <div class="boxincont">
+                       <div>
+                           <h2 class="need">MY BOBBI BROWN</h2>
+                       </div>
+                       <div>
+                           <h3 class="need1">BB Access</h3>
+                           <h3 class="need1">My Account</h3>
+                           <h3 class="need1">My Orders</h3>
+                           <h3 class="need1">Store Locator</h3>
+                       </div>
+                   </div>
+                   <div class="boxincont">
+                       <div>
+                           <input class="ftbox3" type="text" placeholder="ENTER YOUR EMAIL">
+                           <br>
+                           <input class="ftbox3" type="text" placeholder="ENTER YOUR MOBILE PHONE">
+                           <br>
+                           <input class="ftbox3" type="submit" value="SUBMIT">
+                       </div>
+                       <div>
+                          <div>
+                           <h2 class="need2">FOLLOW US</h2>
+                          </div>
+                          <div >
+ 
+                               <ul>
+                                 <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
+                                 <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
+                                 <li><i class="fa wp-icon fa-youtube fa-lg"></i></li>
+                                 <li><i class="fa wp-icon fa-instagram fa-lg"></i></li>
+                                  <li><i class="fa wp-icon fa-pinterest fa-lg"></i></li>
+                               </ul>
+ 
+                          </div>
+ 
+                       </div>
+                   </div>
+               </div>
+               <hr>
+               <div id="belowhr">
+                   <div>
+                        <p class="copyp">© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+                   </div>
+                   <div id="belowhr1">
+                       <div class="copy1">
+                           <h4 class="copy">Terms & Comditions</h4>
+                           <h4 class="copy">California Do Not Sell My Personal Information</h3>
+                           <h4 class="copy">Accessibility</h4>
+                       </div>
+                       <div class="copy2">
+                           <h4 class="copy">Interest Based Ads</h4>
+                           <h4 class="copy">Privacy Policy</h4>
+                       </div>
+                       <div id="imglast">
+                           <img src="https://www.bobbibrowncosmetics.com/media/images/global/bobbi_access_icon.jpg" alt="">
+                       </div>
+                   </div>
+               </div>
+           </div>
+           </footer>
+           </div>  
+</body>
+</html>

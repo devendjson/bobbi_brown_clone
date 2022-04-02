@@ -6,62 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DISCOVER PAGE</title>
     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+        
         .top{
-        color: rgb(251, 251, 251);
-        display: flex;
-        justify-content: space-around;
-        height: 75px;
-        padding-top: 40PX;
-    
-    }
-    
-    .left {
-        color: rgb(251, 251, 251);
-        display: flex;
-        justify-content: space-between;
-        width: 20%;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    section {
-        display: block;
-        background-color: black;
-    }
-    
-    .navbar {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: nowrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-evenly;
-        padding: 0.5rem 1rem;
-        flex-direction: row;
-        color: white;
-    }
-    
-    .container-fluid {
-        width: 75%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-    .navbar-brand {
-        display: inline-block;
-        padding-top: 3.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 1.rem;
-        font-size: 15px;
-        line-height: inherit;
-        white-space: nowrap;
-        color: white;
-    }
+            color: rgb(251, 251, 251);
+            display: flex;
+            justify-content: space-around;
+            height: 75px;
+            padding-top: 40PX;
+        
+        }
+        .search {
+            margin-top: 50px;
+            margin-right: 100px;
+            margin-left: 65px;
+            border-bottom: 1px solid white;
+        }
+        input, optgroup, select, textarea {
+            background-color: black;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: -90px;
+            color: white;
+            /* padding: 30px; */
+            border: 0px;
+        }
+        *:focus {
+                outline: none;
+            }
+        
+        .left {
+            color: rgb(251, 251, 251);
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+        section {
+            display: block;
+            background-color: black;
+        }
+        
+        .navbar {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: nowrap;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            justify-content: space-evenly;
+            padding: 0.5rem 1rem;
+            flex-direction: row;
+            color: white;
+            justify-content: flex-start;
+        }
+        
+        .container-fluid {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .navbar-brand {
+            display: inline-block;
+            padding-top: 3.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.rem;
+            font-size: 15px;
+            line-height: inherit;
+            white-space: nowrap;
+            color: white;
+        }
+        a.navbar-brand {
+            color: white;
+            padding-right: 20px;
+        }
+        a.navbar-brand:hover {
+            text-decoration: underline;
+        }
+        
+        
+        .nv-1 {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .nv-2 {
+            text-decoration: underline;
+            font-size: 11px;
+        }
     #main{
         width:85%;
         display: grid;
@@ -265,25 +306,31 @@ input.ftbox3:hover {
 <body>
     <section id="title">
         <div class="top">
-            <div>EMAIL SIGN UP</div>
-            <div><img class="imgbb" src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></div>
+            <div class="nv-1">EMAIL SIGN UP</div>
+            <div><a href="index.html" ><img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></a></div>
             <div class="left">
-                <div>JOIN BBACCESS</div>
+                <div class="nv-1" >JOIN BB<span class="nv-2">ACCESS</span></div>
                 <div><a href="location.html" ><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg" alt="" width="20" height="20"></a></div>
-                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></div>
+                <div><a href="login.html" ><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></a></div>
                 <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg" alt=""width="20" height="20"></div>
             </div>
         </div>
       <div class="container-fluid">
           <!-- Nav Bar -->
        <nav class="navbar">
-        <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20"> <input type="search" placeholder="SEARCH"></a>
-        <a class="navbar-brand" href="#">BESTSELLERS</a>
+        <div class="search">
+          <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20">
+         <input type="search" placeholder="SEARCH"></a>
+        </div>
+        <div>
+         <a class="navbar-brand" href="bestseller.html">BESTSELLERS</a>
         <a class="navbar-brand" href="face.html">FACE</a>
-        <a class="navbar-brand" href="#">MAKEUP</a>
-        <a class="navbar-brand" href="#">SKINCARE</a>
-        <a class="navbar-brand" href="#">VIRTUAL SERVICES </a>
-        <a class="navbar-brand" href="discover.html">DISCOVER</a>        
+        <a class="navbar-brand" href="makeup.html">MAKEUP</a>
+        <a class="navbar-brand" href="SKINCARE.html">SKINCARE</a>
+        <a class="navbar-brand" href="virtual.html">VIRTUAL SERVICES </a>
+        <a class="navbar-brand" href="discover.html">DISCOVER</a>
+        </div>
+ 
       </div>
     </nav>
     </section> 

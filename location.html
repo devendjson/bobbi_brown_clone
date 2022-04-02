@@ -9,7 +9,11 @@
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
-    <style>.top{
+    <style>body{
+        font-family: Arial, Helvetica, sans-serif ;
+    }
+    
+    .top{
         color: rgb(251, 251, 251);
         display: flex;
         justify-content: space-around;
@@ -17,6 +21,24 @@
         padding-top: 40PX;
     
     }
+    .search {
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 65px;
+        border-bottom: 1px solid white;
+    }
+    input, optgroup, select, textarea {
+        background-color: black;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: -90px;
+        color: white;
+        /* padding: 30px; */
+        border: 0px;
+    }
+    *:focus {
+            outline: none;
+        }
     
     .left {
         color: rgb(251, 251, 251);
@@ -44,10 +66,11 @@
         padding: 0.5rem 1rem;
         flex-direction: row;
         color: white;
+        justify-content: flex-start;
     }
     
     .container-fluid {
-        width: 75%;
+        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -64,6 +87,24 @@
         line-height: inherit;
         white-space: nowrap;
         color: white;
+    }
+    a.navbar-brand {
+        color: white;
+        padding-right: 20px;
+    }
+    a.navbar-brand:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .nv-1 {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .nv-2 {
+        text-decoration: underline;
+        font-size: 11px;
     }
     body{
         font-family: Arial, Helvetica, sans-serif;
@@ -307,28 +348,34 @@ input.ftbox3:hover {
 <body>
     <section id="title">
         <div class="top">
-            <div>EMAIL SIGN UP</div>
-            <div><img class="imgbb" src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></div>
+            <div class="nv-1">EMAIL SIGN UP</div>
+            <div><a href="index.html" ><img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="Girl in a jacket" width="345" height="36" ></a></div>
             <div class="left">
-                <div>JOIN BBACCESS</div>
+                <div class="nv-1" >JOIN BB<span class="nv-2">ACCESS</span></div>
                 <div><a href="location.html" ><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg" alt="" width="20" height="20"></a></div>
-                <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></div>
+                <div><a href="login.html" ><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg" alt=""width="20" height="20"></a></div>
                 <div><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg" alt=""width="20" height="20"></div>
             </div>
         </div>
       <div class="container-fluid">
           <!-- Nav Bar -->
        <nav class="navbar">
-        <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20"> <input type="search" placeholder="SEARCH"></a>
-        <a class="navbar-brand" href="#">BESTSELLERS</a>
+        <div class="search">
+          <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg" alt=""width="20" height="20">
+         <input type="search" placeholder="SEARCH"></a>
+        </div>
+        <div>
+         <a class="navbar-brand" href="bestseller.html">BESTSELLERS</a>
         <a class="navbar-brand" href="face.html">FACE</a>
-        <a class="navbar-brand" href="#">MAKEUP</a>
-        <a class="navbar-brand" href="#">SKINCARE</a>
-        <a class="navbar-brand" href="#">VIRTUAL SERVICES </a>
-        <a class="navbar-brand" href="discover.html">DISCOVER</a>        
+        <a class="navbar-brand" href="makeup.html">MAKEUP</a>
+        <a class="navbar-brand" href="SKINCARE.html">SKINCARE</a>
+        <a class="navbar-brand" href="virtual.html">VIRTUAL SERVICES </a>
+        <a class="navbar-brand" href="discover.html">DISCOVER</a>
+        </div>
+ 
       </div>
     </nav>
-    </section> 
+    </section>
     <h1>FIND A STORE</h1>
     <div id="main" >
         <span class="fa-solid fa-location-crosshairs gg"></span>
